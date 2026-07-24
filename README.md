@@ -69,6 +69,9 @@ plt.title("Original Image")
 plt.axis('on')  # Removes axis ticks and labels
 plt.show()
 ```
+<img width="1347" height="802" alt="image" src="https://github.com/user-attachments/assets/838854c8-bcdf-483c-a144-f3fddc301c51" />
+
+
 
 ```
 # Load the image
@@ -83,6 +86,9 @@ plt.title("Image with Line")
 plt.axis('on')  
 plt.show()
 ```
+<img width="1338" height="867" alt="image" src="https://github.com/user-attachments/assets/4b596333-9e2d-446c-ba53-80df262e51a7" />
+
+
 
 ```
 # Load the image
@@ -96,6 +102,9 @@ plt.title("Image with Circle")
 plt.axis('on')  
 plt.show()
 ```
+<img width="1325" height="842" alt="image" src="https://github.com/user-attachments/assets/8f622e7b-1fb2-464b-8a00-39b7753faaba" />
+
+
 
 ```
 # Load the image
@@ -110,6 +119,9 @@ plt.title("Image with Rectangle")
 plt.axis('on')  
 plt.show()
 ```
+<img width="1332" height="872" alt="image" src="https://github.com/user-attachments/assets/3e5685a4-371e-4e09-8e9c-ae813ba6ab47" />
+
+
 
 ```
 # Load the image
@@ -123,6 +135,9 @@ plt.title("Image with Text")
 plt.axis('on')  
 plt.show()
 ```
+<img width="1315" height="816" alt="image" src="https://github.com/user-attachments/assets/5605d948-6625-465c-845e-de30c8d27c49" />
+
+
 
 ```
 # Load the image
@@ -133,6 +148,9 @@ plt.imshow(image_rgb)
 plt.title("Original RGB Image")
 plt.axis("off")
 ```
+<img width="1348" height="705" alt="image" src="https://github.com/user-attachments/assets/cc9c8cb9-bf57-4539-9690-72bd8b190c91" />
+
+
 
 ```
 # Convert RGB to HSV
@@ -142,6 +160,9 @@ plt.imshow(image_hsv)
 plt.title("HSV Image")
 plt.axis("off")
 ```
+<img width="1361" height="672" alt="image" src="https://github.com/user-attachments/assets/760534db-9caa-4037-9442-14c3cd1aa7b0" />
+
+
 
 ```
 # Convert RGB to GRAY
@@ -151,6 +172,9 @@ plt.imshow(image_gray, cmap='gray')
 plt.title("Grayscale Image")
 plt.axis("off")
 ```
+<img width="1350" height="673" alt="image" src="https://github.com/user-attachments/assets/b9d72d25-f68b-4502-abc5-5fa405c7a9e1" />
+
+
 
 ```
 # Convert RGB to YCrCb
@@ -160,6 +184,9 @@ plt.imshow(image_ycrcb)
 plt.title("YCrCb Image")
 plt.axis("off")
 ```
+<img width="1352" height="672" alt="image" src="https://github.com/user-attachments/assets/cd87a3bd-be02-4c38-bee6-cb1ac0be11c6" />
+
+
 
 ```
 # Convert HSV back to RGB
@@ -168,6 +195,9 @@ plt.imshow(image_hsv_to_rgb)
 plt.title("HSV to RGB Image")
 plt.axis("off")
 ```
+<img width="1361" height="661" alt="image" src="https://github.com/user-attachments/assets/73de8c2c-f7f3-499d-aeb5-4e3aa2c813af" />
+
+
 
 ```
 # Modify a block of pixels (300x300) to white, starting from (200, 200)
@@ -180,6 +210,9 @@ plt.title("Image with 100x100 White Block")
 plt.axis("on")
 plt.show()
 ```
+<img width="1331" height="733" alt="image" src="https://github.com/user-attachments/assets/80696e42-eb63-4216-ad71-a1e8643df86c" />
+
+
 
 ```
 # Load the image
@@ -196,6 +229,9 @@ plt.title("Resized Image (Half Size)")
 plt.axis("off")
 plt.show()
 ```
+<img width="1340" height="937" alt="image" src="https://github.com/user-attachments/assets/07dddd0d-fc67-48a5-a671-854222e1772b" />
+
+
 
 ```
 # Load the image
@@ -211,6 +247,9 @@ plt.title("Cropped Region of Interest (ROI)")
 plt.axis("off")
 plt.show()
 ```
+<img width="1325" height="862" alt="image" src="https://github.com/user-attachments/assets/a4a58121-21a1-4533-bcf0-6641ab9258eb" />
+
+
 
 ```
 # Load the image
@@ -224,6 +263,9 @@ plt.imshow(flipped_horizontally_rgb)
 plt.title("Flipped Horizontally")
 plt.axis("off")
 ```
+<img width="1332" height="791" alt="image" src="https://github.com/user-attachments/assets/05dc74d9-d6a4-4418-8dad-8f617fd0c927" />
+
+
 
 ```
 # Flip the image vertically (up-down)
@@ -235,3 +277,7 @@ plt.imshow(flipped_vertically_rgb)
 plt.title("Flipped Vertically")
 plt.axis("off")
 ```
+<img width="1426" height="733" alt="image" src="https://github.com/user-attachments/assets/e2ab24fc-06e9-471d-bc13-480cd76fdcff" />
+
+# Result:
+Thus, the images were read, displayed, brightness and contrast adjustments were made, and bitwise operations were performed successfully using the Python program.
